@@ -1,0 +1,13 @@
+@model StoreWebsite.Web.Models.Products.ProductFormViewModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h2>Edit Product</h2>
+<p class="text-muted">Update product details.</p>
+
+<partial name="_ProductForm" model="Model" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

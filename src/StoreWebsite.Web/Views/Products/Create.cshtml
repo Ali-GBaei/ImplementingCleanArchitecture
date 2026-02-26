@@ -1,0 +1,13 @@
+@model StoreWebsite.Web.Models.Products.ProductFormViewModel
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h2>Create Product</h2>
+<p class="text-muted">Fill the fields to add a new product.</p>
+
+<partial name="_ProductForm" model="Model" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
