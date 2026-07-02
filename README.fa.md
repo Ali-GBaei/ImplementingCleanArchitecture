@@ -165,11 +165,3 @@ dotnet run --project src/StoreWebsite.Web
 - مستندات دوزبانه کامل دارد
 
 ---
-
-## پیشنهاد گام بعدی (اختیاری)
-
-اگر بخواهید می‌توانم در مرحله بعدی اضافه کنم:
-
-- Logging ساختاریافته (Serilog)
-- تست واحد برای Application و Domain
-- Dockerfile برای اجرای سریع روی هر سیستم
