@@ -75,7 +75,7 @@ Connection string is already configured in `src/StoreWebsite.Web/appsettings.jso
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Data Source=ALI\\ALINEWSQL;Initial Catalog=CleanDb;Integrated Security=True;Encrypt=True;Trust Server Certificate=True"
+  "DefaultConnection": "Data Source=ServerName;Initial Catalog=CleanDb;Integrated Security=True;Encrypt=True;Trust Server Certificate=True"
 }
 ```
 
